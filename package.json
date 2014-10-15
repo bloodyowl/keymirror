@@ -1,0 +1,64 @@
+{
+  "name": "bloody-keymirror",
+  "version": "1.0.0",
+  "description": "mirror keys in a new object",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bloodyowl/keymirror.git"
+  },
+  "author": "bloodyowl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloodyowl/keymirror/issues"
+  },
+  "homepage": "https://github.com/bloodyowl/keymirror",
+  "devDependencies": {
+    "tape": "^3.0.0"
+  },
+  "testling": {
+    "files": "test/**.js",
+    "browsers": {
+      "ie": [
+        9,
+        10
+      ],
+      "firefox": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "chrome": [
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "safari": [
+        5.1,
+        6
+      ],
+      "opera": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "iphone": [
+        6
+      ],
+      "ipad": [
+        6
+      ]
+    }
+  }
+}
